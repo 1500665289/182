@@ -2,4 +2,7 @@
 	
 	<Data Kind="Builds" Unlock="0" Type="model"  CMDType="Build" Name="ModelChange"/>  
 	<Data Kind="Builds" Unlock="0" Type="model"  CMDType="Build" Name="rbq"/>
+	<Data Kind="Builds" Unlock="0" Type="model"  CMDType="Build" Name="SHOUGONGZUO"/>
+	<Data Kind="Builds" Unlock="0" Type="model"  CMDType="Build" Name="FENGRENZUO"/>
+
 </List></MainList>
