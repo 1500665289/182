@@ -1,11 +1,5 @@
+<MainList><List>
+	
+	<Data Kind="Builds" Unlock="0" Type="model"  CMDType="Build" Name="ModelChange"/>  
 
- <MainList>
-    <List>
-      <Data Kind="Builds" Unlock="0" Type="Model" CMDType="Build" Name="Bulkrepair" DisplayName="批量修复台" Description="用于批量修复损坏的物品和设备"/>  
-      <Data Kind="Builds" Unlock="0" Type="Model" CMDType="Build" Name="SHOUGONGZUO" DisplayName="逍遥手工桌" Description="进行物品制造的工作台"/>
-      <Data Kind="Builds" Unlock="0" Type="Model" CMDType="Build" Name="FENGRENZUO" DisplayName="逍遥缝纫桌" Description="制作上等衣物的工作台"/>
-      <Data Kind="Builds" Unlock="0" Type="Model" CMDType="Build" Name="Building_LingGen" DisplayName="灵根激活石" Description="神秘的灵石，能够激活修仙者的灵根潜能"/>
-      <Data Kind="Builds" Unlock="0" Type="Model" CMDType="Build" Name="rbq" DisplayName="肉便器" Description="敌对宗门弟子的下场"/>
-      <Data Kind="Builds" Unlock="0" Type="Model" CMDType="Build" Name="ModelChange" DisplayName="模型修改器" Description="可以更改小人模型的建筑"/>
-    </List>
-  </MainList>
+</List></MainList>
