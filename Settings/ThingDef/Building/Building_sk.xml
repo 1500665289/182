@@ -1,4 +1,90 @@
-﻿<ThingDefs><List>
+<ThingDefs><List>
+
+        <ThingDef Type="Building" Name="rbq" Parent="BuildingBase">
+            <ThingName>肉便器</ThingName>
+            <Desc>敌对宗门弟子的下场。</Desc>
+            <Tags>
+                <Tag Name="BasePractice" Level="10"/>
+                <Tag Name="AtkPractice" Level="1"/>
+                <Tag Name="Bury" Level="1"/>
+                <Tag Name="Puppet" Level="1"/>
+            </Tags>
+            <TexPath>Spr\Building\rbq2.png</TexPath>
+            <TexScale>0.5</TexScale>
+            <SelectAble>1</SelectAble>
+            <CastShadow>1</CastShadow>
+            <BlockLight>1</BlockLight>
+            <Beauty>-10</Beauty>
+            <ShadowSize>
+                <x>1</x>
+                <y>1.2</y>
+            </ShadowSize>
+            <ColliderKind>Across</ColliderKind>
+            <Collider>
+                <!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+                <Data>
+                [0,4,0],
+                [4,3,4],
+                [0,4,0],
+                </Data>
+                <Offset>
+                    <x>0</x>
+                    <y>0.35</y>
+                </Offset>
+                <OffsetGroup>
+                    <li><x>0</x><y>0.35</y></li>
+                </OffsetGroup>
+                <WorkOffset>
+                    <li Index="0" X="0.5" Y="0" Ang="0"/>
+                </WorkOffset>
+            </Collider>
+            <Flammability>
+                <Flammability>0.3</Flammability>
+            </Flammability>
+            <Building>
+                <OwnerCount>1</OwnerCount>
+                <BePackage>1</BePackage>
+                <WorkTexPath>Spr/building/rbq2s.png</WorkTexPath>
+                <TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+                <HelperClass>BuildingHelperTomb</HelperClass>
+                <CanMakeRoom>0</CanMakeRoom>
+                <BagDrop>0</BagDrop>
+                <AutoUnLock>1</AutoUnLock>
+                <MaxWorker>4</MaxWorker>
+                <WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+                <BasePracticeEffectiveness>45</BasePracticeEffectiveness>
+                <BeMade>
+                    <WorkToMake>50</WorkToMake>
+                    <Quality>0</Quality>
+                    <StuffCategories>
+                        <Stuff name="MetalBlock"/>
+                        <Stuff name="RockBlock"/>
+                        <Stuff name="WoodBlock"/>
+                    </StuffCategories>
+                    <CostStuffCount>2</CostStuffCount>
+                </BeMade>
+                <Drive>
+                    <StuffCategories>
+                        <Stuff name="Wood"/>
+                        <Stuff name="WoodBlock"/>
+                    </StuffCategories>
+                    <CostStuffCount>5</CostStuffCount>
+                    <Duration>0.05</Duration>
+                    <DriveJustProdece>1</DriveJustProdece>
+                    <RateMin>0</RateMin>
+                    <RateMax>2</RateMax>
+                </Drive>
+                <SnowRenderData>
+                    <x>2.95</x>
+                    <y>3.45</y>
+                    <z>1</z>
+                </SnowRenderData>
+            </Building>
+            <StoryBnts>
+                <li Name="使用" Desc="操作肉便器" Story="Story_RBQ_Use" Appoint="3" Scope="2" Icon="res/Sprs/ui/icon_interact"/>
+            </StoryBnts>
+        </ThingDef>
+
 
 <ThingDef Type="Building" Name="ModelChange" Parent="BuildingBase">	
 	<ThingName>ModelChange</ThingName>
